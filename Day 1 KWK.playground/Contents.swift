@@ -69,4 +69,12 @@ else {
     print(" i <3 food")
 }
 
+//Github stuff
+var github = "Rocks"
 
+if github == "Rocks" {
+    print("You did it")
+}
+else {
+    print("Try Again")
+}
