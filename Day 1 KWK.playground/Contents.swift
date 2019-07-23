@@ -173,7 +173,7 @@ print(roleModelsOfAdrienne)
 
 //Dictionaries
 var adrienneAndHerPeeps = [
-    "Adrienne" : "May 5th",                                                                                                                                
+    "Adrienne" : "May 5th",
     "Mia" : "August 15" ,
     "Sophie" : "August 23"
 ]
@@ -199,5 +199,5 @@ var adrienneFam = [
 ]
 print("\(adrienneFam)")
 print(adrienneFam["Tatum"]!)
-adrienneFam["Shaun"] = nil=
+adrienneFam["Shaun"] = nil
 print("\(adrienneFam)")
