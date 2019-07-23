@@ -145,11 +145,12 @@ func walkDog(numberOfDogs : Int) -> Int {
 let lengthOfWalk = numberOfDogs * 15
 return lengthOfWalk
 }
-let minutesToWalk = walkDog(numberOfDogs : 3)
-print("Please walk the dogs. I will expect you to see you in complete that task in \(minutesToWalk) minutes!")
+//let minutesToWalk = walkDog(numberOfDogs : 3)
+//print("Please walk the dogs. I will expect you to see you in complete that task in \(minutesToWalk) minutes!")
 //The let was used because minutes to walk is not changes. If you are curious, try starting with var then noticing the Xcode throws.
 
 //COLLECTIONS
+//Array
 var friendsOfKarlie = ["Michelle Obama", "Serena Williams", "T Swift", "Jimmy Falon"]
 
 friendsOfKarlie[2]
@@ -169,3 +170,34 @@ roleModelsOfAdrienne.append ("Bella Vassuer")
 roleModelsOfAdrienne.remove (at : 0)
 roleModelsOfAdrienne[0] = "BB athletics"
 print(roleModelsOfAdrienne)
+
+//Dictionaries
+var adrienneAndHerPeeps = [
+    "Adrienne" : "May 5th",                                                                                                                                
+    "Mia" : "August 15" ,
+    "Sophie" : "August 23"
+]
+print("\(adrienneAndHerPeeps) ")
+
+adrienneAndHerPeeps["Tatum"] = "Febuary 17th"
+print("\(adrienneAndHerPeeps)")
+print(adrienneAndHerPeeps["Tatum"]!)
+//The ! gives you a definate answer.
+// without the ! its "optional ('______')"
+
+var adrienneFam = [
+    "Tatum" : "Little Sister",
+    "Rj" : "Little Brother",
+    "Devonna" : "Mother",
+    "Torrey" : "Father",
+    "Dalya" : "Older Sister",
+    "Winky" : "Cat",
+    "Courtney" : "Aunt",
+    "Terrel" : "Uncle",
+    "Guppie" : "Fish",
+    "Shaun" : "Cousin"
+]
+print("\(adrienneFam)")
+print(adrienneFam["Tatum"]!)
+adrienneFam["Shaun"] = nil=
+print("\(adrienneFam)")
