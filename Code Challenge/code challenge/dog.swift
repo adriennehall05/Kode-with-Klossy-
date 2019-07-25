@@ -16,7 +16,7 @@ class dog {
     var breed = ""
 
 
-init(dogName: String, dogAge: String, dogBreed: String) {
+    init(dogName: String, dogAge: String, dogBreed: String ) {
     name = dogName
     age = dogAge
     breed = dogBreed
@@ -25,4 +25,11 @@ init(dogName: String, dogAge: String, dogBreed: String) {
     func writeCode() {
         print(" I'm \(name), woof woof!")
     }
+    func randomB () {
+        print("\(randomBreed) as Any")
+    }
+}
+var randomBreed = ["pug","huskie", "poodle","retreiver"]
+func randoBreed () {
+    print("\(randomBreed)")
 }

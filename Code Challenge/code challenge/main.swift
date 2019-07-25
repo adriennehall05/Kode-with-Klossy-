@@ -7,6 +7,7 @@
 //
 
 import Foundation
-var newDog = dog(dogName: "Lincoln", dogAge: "2", dogBreed: "Huskie")
-print(newDog.age)
+var newDog = dog(dogName: "Lincoln", dogAge: "2", dogBreed: "randomBreed")
 newDog.writeCode()
+randomBreed = randomBreed[rand(randomBreed.randomElement(using: &<#T##RandomNumberGenerator#>))
+]
